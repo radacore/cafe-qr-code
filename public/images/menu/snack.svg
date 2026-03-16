@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" role="img" aria-label="Snack">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffe4a3"/>
+      <stop offset="1" stop-color="#ffbf63"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="160" rx="20" fill="url(#bg)"/>
+  <path d="M74 48h92l-10 78H84z" fill="#d64545"/>
+  <rect x="86" y="56" width="68" height="10" rx="5" fill="#ffd36c"/>
+  <rect x="96" y="38" width="10" height="34" rx="5" fill="#ffd36c"/>
+  <rect x="118" y="34" width="10" height="38" rx="5" fill="#ffd36c"/>
+  <rect x="140" y="40" width="10" height="32" rx="5" fill="#ffd36c"/>
+</svg>

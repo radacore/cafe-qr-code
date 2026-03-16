@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" role="img" aria-label="Main course">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffd7c4"/>
+      <stop offset="1" stop-color="#ff9f80"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="160" rx="20" fill="url(#bg)"/>
+  <ellipse cx="120" cy="88" rx="68" ry="40" fill="#fff6ef"/>
+  <path d="M70 90c16-22 84-22 100 0" fill="none" stroke="#f08f5d" stroke-width="10" stroke-linecap="round"/>
+  <path d="M78 98c14-18 70-18 84 0" fill="none" stroke="#f4be7f" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="90" cy="82" r="5" fill="#7fb069"/>
+  <circle cx="116" cy="76" r="5" fill="#7fb069"/>
+  <circle cx="142" cy="84" r="5" fill="#7fb069"/>
+</svg>
