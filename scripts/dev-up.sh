@@ -38,10 +38,10 @@ start_if_needed() {
 
 start_if_needed "artisan reverb:start" "cd '$ROOT_DIR' && php artisan reverb:start --host=0.0.0.0 --port=$REVERB_PORT" "reverb"
 start_if_needed "artisan serve" "cd '$ROOT_DIR' && php artisan serve --host=0.0.0.0 --port=$APP_PORT" "laravel-serve"
-start_if_needed "vite --host 0.0.0.0 --port $VITE_PORT" "cd '$ROOT_DIR' && npm run dev -- --host 0.0.0.0 --port $VITE_PORT" "vite"
+start_if_needed "vite --host localhost --port $VITE_PORT" "cd '$ROOT_DIR' && npm run dev -- --host localhost --port $VITE_PORT" "vite"
 
 echo ""
 echo "Dev services ready:"
 echo "- App:    http://127.0.0.1:$APP_PORT"
-echo "- Vite:   http://127.0.0.1:$VITE_PORT"
+echo "- Vite:   http://localhost:$VITE_PORT"
 echo "- Reverb: ws://127.0.0.1:$REVERB_PORT"
